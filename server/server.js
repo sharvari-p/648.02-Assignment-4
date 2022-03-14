@@ -7,7 +7,7 @@ const { MongoClient } = require('mongodb');
 
 const app = express();
 
-const client = new MongoClient(`mongodb+srv:/sharvarip:${process.env.MONGO_PASS}@sharvarip-sdsu-7v19x.mongodb.net/648-assn-4`, {
+const client = new MongoClient(`mongodb+srv:/sharvarip:${process.env.MONGO_PASS}@cluster0.hvwfi.mongodb.net/assignment-4`, {
   useUnifiedTopology: true,
 });
 
